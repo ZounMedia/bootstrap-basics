@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Responsive Design with Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-4">Responsive Design with Bootstrap</h1>
+      <p class="lead">
+        Resize the browser window to see the responsive behavior.
+      </p>
+
+      <!-- Responsive Grid -->
+      <div class="row">
+        <!-- Column 1 (Extra Small and Small Screens) -->
+        <div class="col-12 col-sm-6 bg-primary">
+          <p>Column 1 (col-12 col-sm-6)</p>
+        </div>
+
+        <!-- Column 2 (Extra Small and Small Screens) -->
+        <div class="col-12 col-sm-6 bg-secondary">
+          <p>Column 2 (col-12 col-sm-6)</p>
+        </div>
+
+        <!-- Column 3 (Medium and Large Screens) -->
+        <div class="col-md-4 bg-success">
+          <p>Column 3 (col-md-4)</p>
+        </div>
+
+        <!-- Column 4 (Medium and Large Screens) -->
+        <div class="col-md-4 bg-warning">
+          <p>Column 4 (col-md-4)</p>
+        </div>
+
+        <!-- Column 5 (Medium and Large Screens) -->
+        <div class="col-md-4 bg-danger">
+          <p>Column 5 (col-md-4)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link to Bootstrap JS and jQuery (required for Bootstrap functionality) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

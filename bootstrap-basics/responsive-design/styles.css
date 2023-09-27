@@ -1,0 +1,36 @@
+/* Custom CSS styles */
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.row > div {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Background Colors */
+.bg-primary {
+  background-color: #007bff;
+}
+
+.bg-secondary {
+  background-color: #6c757d;
+}
+
+.bg-success {
+  background-color: #28a745;
+}
+
+.bg-warning {
+  background-color: #ffc107;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+}
