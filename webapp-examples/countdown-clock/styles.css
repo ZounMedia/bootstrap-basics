@@ -23,11 +23,6 @@ body {
   align-items: center;
 }
 
-.container-fluid {
-  border: 6px solid white;
-  border-radius: 12px;
-}
-
 h1 {
   font-size: 48px;
   font-weight: 900;
@@ -45,7 +40,7 @@ h1 {
 }
 
 .countdown span {
-  font-size: 40px;
+  font-size: 40 px;
   font-weight: 900;
   text-decoration: underline;
   color: honeydew;
