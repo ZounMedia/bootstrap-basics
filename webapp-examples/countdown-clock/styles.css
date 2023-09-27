@@ -40,7 +40,7 @@ h1 {
 }
 
 .countdown span {
-  font-size: 40 px;
+  font-size: 50px;
   font-weight: 900;
   text-decoration: underline;
   color: honeydew;
@@ -48,7 +48,7 @@ h1 {
 
 .smalltext {
   font-size: 20px;
-  color: red;
+  color: black;
   font-weight: 900;
 }
 
