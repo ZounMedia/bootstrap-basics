@@ -14,6 +14,6 @@ This folder contains example websites created with bootsrap
 
 ## Resources
 
-Bootstrap 4.4 documentation - https://getbootstrap.com/docs/4.4/getting-started/introduction/
-Bootstrap 5.3 documentation - https://getbootstrap.com/docs/5.3/getting-started/introduction/
-Other CSS frameworks to try out - https://www.creative-tim.com/blog/educational-tech/bootstrap-alternatives/
+- Bootstrap 4.4 documentation - https://getbootstrap.com/docs/4.4/getting-started/introduction/
+- Bootstrap 5.3 documentation - https://getbootstrap.com/docs/5.3/getting-started/introduction/
+- Other CSS frameworks to try out - https://www.creative-tim.com/blog/educational-tech/bootstrap-alternatives/
