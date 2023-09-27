@@ -1,11 +1,36 @@
 /* Custom CSS styles */
 body {
-  background-color: #f2f2f2;
-  padding-top: 50px;
+  background-image: linear-gradient(
+    305deg,
+    hsl(231deg 100% 20%) 0%,
+    hsl(206deg 100% 33%) 11%,
+    hsl(181deg 100% 47%) 22%,
+    hsl(180deg 96% 60%) 33%,
+    hsl(187deg 90% 73%) 44%,
+    hsl(198deg 90% 73%) 56%,
+    hsl(212deg 96% 60%) 67%,
+    hsl(216deg 100% 50%) 78%,
+    hsl(186deg 100% 50%) 89%,
+    hsl(156deg 100% 50%) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid {
+  border: 6px solid white;
+  border-radius: 12px;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .countdown {
@@ -20,12 +45,16 @@ h1 {
 }
 
 .countdown span {
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 900;
+  text-decoration: underline;
+  color: honeydew;
 }
 
 .smalltext {
-  font-size: 12px;
+  font-size: 20px;
+  color: red;
+  font-weight: 900;
 }
 
 .input-group {
