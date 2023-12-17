@@ -55,3 +55,9 @@ h1 {
 .input-group {
   margin-top: 20px;
 }
+
+@media screen and (max-width: 400px) {
+  .countdown div {
+    margin: 0;
+  }
+}
